@@ -1,0 +1,9 @@
+body {
+    margin: 10px 30px;
+    line-height: 2em;
+}
+form {
+    background-color:lightgreen;
+    padding: 2em;
+    display: inline-block;
+}

@@ -1,0 +1,56 @@
+Benny Mattis
+TECH 282
+Program Specifications: Homework 4
+
+***Project description***
+Showcases seven different tools and features that can be built with basic PHP programming, with a focus on form input validation.
+
+***File Descriptions***
+index.php 
+Starting point from whence the user can navigate to the homework exercises.
+
+exercise_1.php
+Calculates and displays the number of days in a given number of years, with one year being counted as 365 days.
+Displays "invalid input" if input is non-numeric or negative.
+
+exercise_2.php
+Calculates and displays the number of seconds in a given number of hours and minutes.
+Displays "invalid input" if input is non-numeric.
+
+exercise_3.php
+Removes all vowels from user input.
+
+exercise_4.php
+Assuming all entered names consist in a capital letter followed by lowercase letters, finds "Bob" within an array of names.
+Returns the location of the first appearance of "Bob" within said array, or -1 if "Bob" is not an array element.
+User enters the array of names as a comma-separated list.
+
+exercise_5.php
+Displays the century (e.g. "19th Century") of a given year between 1000-2010 (e.g. "1871"), with the beginning of the 11th century starting in 1001.
+Returns "invalid input" if input is non-numeric, non-integer, or out of the specified range (i.e., if the user bypasses built-in form input restrictions).
+
+exercise_6.php
+Finds the second largest value within an array of numbers.
+Returns  value and first location of second largest number within said array, or "invalid input" if a second largest number cannot be found.
+User enters the array of names as a comma-separated list.
+
+exercise_7.php
+Checks whether a given PIN consists of exactly 4 or exactly 6 numeric digits.
+Returns TRUE if the PIN validates successfully; returns FALSE otherwise.
+
+specifications.php
+Displays the contents of the program specifications document.
+
+assets/php/_header.php
+Holds a <header> component for use on all pages displayed to the user.
+Includes parameters in exercise URLs for dynamically filling page titles in /assets/php/_head.php. 
+
+assets/php/_head.php
+Holds a <head> component for use on all pages displayed to the user.
+Dynamically fills page titles using parameters from the global $_GET variable.
+
+assets/css/styles.css
+Adds spacing between elements on all pages displayed to the user. Adds coloring to highlight key elements.
+
+specifications.txt
+Describes the function of all files included in the current directory.

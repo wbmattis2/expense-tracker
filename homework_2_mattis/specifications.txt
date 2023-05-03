@@ -1,0 +1,50 @@
+Benny Mattis
+TECH 282
+Program Specifications: Homework 2
+
+***Project description***
+Showcases six different tools and features that can be built with basic PHP programming, with a focus on form handling and control statements.
+
+***File Descriptions***
+index.php 
+Starting point from whence the user can navigate to the homework exercises.
+
+exercise_1.php
+A simple calculator than uses PHP add, subtract, multiply or divide two numbers entered by the user and displays the result.
+Displays "INF" if the result is infinity; displays "NAN" if the program cannot calculate a numerical result.
+
+exercise_2.php
+Determines and displays whether a given age (entered by the user) is old enough to vote in the United States (i.e., whether they are 18 years or older).
+
+exercise_3.php
+Determines and displays the sign of a number entered by the user.
+Displays "NAN" if user input is not numeric.
+
+exercise_4.php
+Measures and displays the length of a string entered by the user.
+
+exercise_5.php
+Determines and displays grade division based on a given grade percentage entered by the user.
+Displays "Invalid Grade" if user input is negative of non-numeric.
+
+exercise_6.php
+Takes a given phone number entered by the user and formats it into ten digits according to the North American Numbering Plan (NANP).
+Displays "Invalid Entry" if user input can not be formatted into a NANP number.
+This validator only works for phone numbers with an international country code of 1.
+
+specifications.php
+Displays the contents of the program specifications document.
+
+assets/php/_header.php
+Holds a <header> component for use on all pages displayed to the user.
+Includes parameters in exercise URLs for dynamically filling page titles in /assets/php/_head.php. 
+
+assets/php/_head.php
+Holds a <head> component for use on all pages displayed to the user.
+Dynamically fills page titles using parameters from the global $_GET variable.
+
+assets/css/styles.css
+Adds spacing between elements on all pages displayed to the user. Adds coloring to highlight key elements.
+
+specifications.txt
+Describes the function of all files included in the current directory.
