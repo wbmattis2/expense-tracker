@@ -15,4 +15,7 @@
             <li>
                 <a href="./homework_4_mattis">Homework 4</a>
             </li>
+			<li>
+                <a href="./final_project_mattis">Final Project</a>
+            </li>
         </ul>

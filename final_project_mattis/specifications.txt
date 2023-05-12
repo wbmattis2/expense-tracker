@@ -1,0 +1,61 @@
+Benny Mattis
+TECH 282
+Program Specifications: Final Project - Expense Tracker
+
+***Project description***
+Expense tracking app that allows users to log in, record expenses, add expense categories, and view expense reports by day or by expense item category.
+
+***File Descriptions***
+index.php 
+Window from whence the user can log in or use selected features.
+
+download.php
+Forces download of a .csv document containing data from a table generated with the array_display() function (array_display() is defined in assets/php/_db_toolkit.php).
+
+specifications.php
+Displays the contents of this program specifications document (specifications.txt).
+
+specifications.txt
+Describes the functions of all files included in the current directory.
+
+assets/sql/db_setup.sql
+SQL script to setup a database for use with the app.
+
+assets/php/_add_category.php
+Component that displays existing categories and allows user to create their own categories through form input.
+
+assets/php/_add_expense.php
+Component that allows users to add an expense to the database by providing the expense date, amount, item name, item description, category, and (optionally) store name.
+
+assets/php/_db_config.php
+Configures database for use in index.php. Initializes variable $conn (connection) for use in database queries application-wide.
+
+assets/php/_db_toolkit.php
+Applies procedural mysqli functions in database manipulation functions created specifically for the requirements of this application.
+Custom defined functions include :
+    -result_array($subject, $search_field = NULL, $search_value = NULL): Returns mysqli_result object for one of the application's most commonly used queries (specified by $subject).
+    -array_display($result_array, $column_labels): Echoes contents of a mysqli_result object in an HTML table with custom column headers, and enables user to download table contents as a CSV file by passing data to download-table.php.
+    -is_duplicate($new_value, $key_column, $old_results): Returns boolean indicating whether $new_value is a duplicate in $key_column of mysqli_result object $old_results.
+    -id_from_name($id_field, $name, $stop_recursion = FALSE): Returns the primary key ($id_field) value of row with given $name value. If $stop_recursion is set to FALSE, a new record and primary key will be created for names which do not exist in the database already.
+
+assets/php/_features.php
+Allows user to choose among the various features of the application.
+
+assets/php/_head.php
+Holds a <head> component for use on all pages displayed to the user.
+
+assets/php/_header.php
+Holds a <header> component for use on all pages displayed to the user.
+Includes navigation links to the class homepage, project homepage, and specifications.php.
+
+assets/php/_login.php
+Displays current login information or prompts user to log in.
+
+assets/php/_reports.php
+Displays all expenses entered by the user and allows them to search by expense date and/or item name.
+
+assets/css/styles.css
+Presentation layer for app appearance and usability.
+
+assets/images/money.jpg
+Header background image. Free to use under the Unsplash License. Image by Alexander Grey (sharonmccutcheon), found at https://unsplash.com/photos/8lnbXtxFGZw.
