@@ -6,7 +6,7 @@
     <nav>
         <ul>
             <li>
-                <a href="../index.php">PHP Demonstrations Homepage</a>
+                <a href="../index.php">Demonstrations Homepage</a>
             </li>
             <li>
                 <a href="./index.php">Expense Tracker Homepage</a>
