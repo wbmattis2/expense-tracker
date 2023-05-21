@@ -4,7 +4,7 @@
     <nav>
         <ul>
             <li>
-                <a href="../index.php">Class Homepage</a>
+                <a href="../index.php">Demonstrations Homepage</a>
             </li>
 			<li>
                 <a href="./exercise_1_1.php">Demonstration 1.1: Simple Calculator Program</a>
