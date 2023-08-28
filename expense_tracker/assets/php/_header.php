@@ -6,9 +6,6 @@
     <nav>
         <ul>
             <li>
-                <a href="../index.php">Demonstrations Homepage</a>
-            </li>
-            <li>
                 <a href="./index.php">Expense Tracker Homepage</a>
             </li>
             <li>
