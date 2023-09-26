@@ -2,7 +2,7 @@
 
 Exercises demonstrating PHP skills, by Benny Mattis.  
 
-Exercises and final project (expense tracker) written to specifications provided in TECH 282 at Montgomery College.
+Exercises and final project (expense tracker) written to specifications provided in a course at Montgomery College.
 
 ## Purpose
 
